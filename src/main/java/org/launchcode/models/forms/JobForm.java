@@ -27,6 +27,11 @@ public class JobForm {
         with correct validation attributes and display names.
         Don't forget to add getters and setters
      */
+    private int locationId;
+
+    private int positionTypeId;
+
+    private int coreCompetencyId;
 
     private ArrayList<Employer> employers;
     private ArrayList<Location> locations;
